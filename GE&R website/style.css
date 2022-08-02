@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .nav-bar{
+    background-color: rgba(94, 94, 237, 0.973);
+    
+} */
+.logo{
+    margin-left: 10%;
+}
+/* body{
+   background-image: url(https://tse3.mm.bing.net/th?id=OIP.oGY7uizCZUqsaUB9LgtWkAHaEK&pid=Api&P=0);
+   background-repeat: no-repeat;
+   background-color: rgb(1, 1, 31);
+   background-size: 100px 100px;
+} */
+.body-div{
+    background-color: rgb(1, 1, 61); 
+    color: rgba(255, 255, 255, 0.447);
+
+}
+.main-div h1{
+    /* color: rgba(12, 10, 10, 0.566); */
+    color: rgba(255, 255, 255, 0.502);
+    /* margin-left: 20%; */
+    font-size: 40px;
+}
+.main-div h2{
+    /* color: rgba(12, 10, 10, 0.566); */
+    color: rgba(255, 255, 255, 0.502);
+    /* margin-left: 10%; */
+    font-size: 30px;
+}
+/* .nav-bar a{
+    float: right;
+    display: inline;
+    text-decoration: none;
+    padding: 30px;
+} */
+#nav {
+    list-style: none inside;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#nav li {
+    display: block;
+    position: relative;
+    float: right;
+    
+    /* background: #24af15; */
+    /* menu background color */
+}
+
+#nav li a {
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    width: 200px;
+    /* this is the width of the menu items */
+    line-height: 35px;
+    /* this is the hieght of the menu items */
+    color: #0aa7ce;
+    /* list item font color */
+}
+
+#nav li li a {
+    font-size: 90px;
+}
+
+/* smaller font size for sub menu items */
+
+#nav li:hover {
+    background: whitesmoke;
+}
+
+/* highlights current hovered list item and the parent list items when hovering over sub menues */
+
+#nav ul {
+    position: absolute;
+    padding: 0;
+    left: 0;
+    display: none;
+    /* hides sublists */
+}
+
+#nav li:hover ul ul {
+    display: none;
+}
+
+/* hides sub-sublists */
+
+#nav li:hover ul {
+    display: block;
+}
+
+/* shows sublist on hover */
+
+#nav li li:hover ul {
+    display: block;
+    /* shows sub-sublist on hover */
+    margin-left: 200px;
+    /* this should be the same width as the parent list item */
+    margin-top: -35px;
+    /* aligns top of sub menu with top of list item */
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.708);
+    color:grey;
+    padding: 30px;
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-div img{
+    margin-left: 40%;
+}
+.col1{
+    float: left;
+    width: 20%;
+    margin-left: 200px;
+    padding: 10px;
+    height: 700px; 
+}
+.col2{
+    float:right;
+    width: 40%;
+    /* margin-left: 400px; */
+    /* margin-right: 100px; */
+     
+    height: 700px; 
+}

@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head img{
+    margin-left: 40%;
+}
+.con-head{
+    margin: 50px;
+}
+.con-head h1{
+    font-family: sans-serif;
+    color: rgb(0, 72, 255);
+    margin-left: 50px;
+}
+.column1{
+    float: left;
+  width: 50%;
+  padding: 10px;
+  height: 400px; 
+}
+.column2 a{
+  text-decoration: none;
+  margin-left: 60%;
+  font-size: 20px;
+  font-weight: 400px;
+  color: purple;
+}
+.column1 p{
+    font-size: 20px;
+}
+.column2{
+    margin-left: 60px;
+    padding: 20px;
+}
+.vision h1{
+    font-family: sans-serif;
+    color: rgb(0, 72, 255);
+    margin-left: 50px;
+}
+.vision{
+    margin: 50px;
+    padding: 20px;
+}
+.vision p{
+    font-size: 20px;
+}
+.mission{
+    margin: 50px;
+    padding: 20px;
+}
+.mission p{
+    font-size: 20px;
+}
+.mission h1{
+    font-family: sans-serif;
+    color: rgb(0, 72, 255);
+    margin-left: 50px;
+}
+.research{
+    margin: 50px;
+    padding: 20px; 
+}
+.research p{
+    font-size: 20px;
+}
+.research h1{
+    font-family: sans-serif;
+    color: rgb(0, 72, 255);
+    margin-left: 50px;
+}
+.col1 img{
+  float: left;
+  width: 40%;
+  margin-left: 100px;
+  padding: 10px;
+  height: 700px; 
+}
+.col2 img{
+    float:right;
+  width: 40%;
+  margin-left: 40px;
+  margin-right: 100px;
+    padding: 10px;
+  height: 700px; 
+}
+.video{
+    margin-left: 400px;
+}
